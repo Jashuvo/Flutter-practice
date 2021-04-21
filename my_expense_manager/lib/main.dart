@@ -142,7 +142,6 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Icon(Icons.add),
         onPressed: () => _startAddNewTransaction(context),
       ),
-      resizeToAvoidBottomInset: false,
     );
   }
 }
